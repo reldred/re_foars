@@ -1,0 +1,15 @@
+#include "src/header.pnml"
+#include "src/template.pnml"
+#include "src/ids.pnml"
+
+//This is a template roadstop:
+#include "src/rs/warehouse0.pnml"
+#include "src/rs/warehouse1.pnml"
+#include "src/rs/warehouse2.pnml"
+#include "src/rs/warehouse3.pnml"
+#include "src/rs/warehouse4.pnml"
+#include "src/rs/warehouse5.pnml"
+#include "src/rs/warehouse6.pnml"
+#include "src/rs/warehouse7.pnml"
+#include "src/rs/warehouse8.pnml"
+#include "src/rs/warehouse9.pnml"

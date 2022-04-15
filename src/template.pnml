@@ -1,0 +1,4 @@
+template TEMP_BASIC(x,y,xo,yo) {
+    //left_x, upper_y, width, height, offset_x, offset_y
+    [x*65, y*65, 64, 64, xo, yo]
+}

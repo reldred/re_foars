@@ -1,0 +1,12 @@
+grf {
+	grfid:	"RJE\14";
+	name:	string(STR_GRF_NAME);
+	desc:	string(STR_GRF_DESC);
+	url: string(STR_GRF_URL);
+	version:	1;
+	min_compatible_version: 1;
+}
+
+if (!extended_feature_test("road_stops")) {
+	error(FATAL, string(STR_UNSUPPORTED_VERSION));
+}

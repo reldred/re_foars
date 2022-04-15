@@ -1,0 +1,27 @@
+##grflangid 0x01
+# 0x01 -> English
+
+# General GRF strings
+STR_GRF_NAME	:Fridaemons Objects as Road Stops
+STR_GRF_DESC	:Fridaemons Objects as Road Stops. Art by Fridaemon. Coded by reldred. Needs a newish JGRPP. GPLv2.
+STR_GRF_URL		:https://github.com/reldred/
+
+#Category Strings
+STR_CAT_WARE			:Warehouses
+
+#Stop strings
+STR_WARE_0_NAME			:Warehouse 1
+STR_WARE_1_NAME			:Warehouse 2
+STR_WARE_2_NAME			:Warehouse 3
+STR_WARE_3_NAME			:Warehouse 4
+STR_WARE_4_NAME			:Warehouse 5
+STR_WARE_5_NAME			:Warehouse 6
+STR_WARE_6_NAME			:Warehouse 7
+STR_WARE_7_NAME			:Warehouse 8
+STR_WARE_8_NAME			:Warehouse 9
+STR_WARE_9_NAME			:Warehouse 10
+
+# Other
+STR_NAME_TEST			:Lost child. Report to Erato when found.
+
+STR_UNSUPPORTED_VERSION	:You should be using a newer version of JGR's patch pack.
