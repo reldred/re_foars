@@ -8,6 +8,7 @@ STR_GRF_URL		:https://github.com/reldred/
 
 #Category Strings
 STR_CAT_WARE			:Warehouses
+STR_CAT_DEPT			:Bus Depots
 
 #Stop strings
 STR_WARE_0_NAME			:Warehouse 1
@@ -20,6 +21,13 @@ STR_WARE_6_NAME			:Warehouse 7
 STR_WARE_7_NAME			:Warehouse 8
 STR_WARE_8_NAME			:Warehouse 9
 STR_WARE_9_NAME			:Warehouse 10
+STR_DEPT_0_NAME			:Bus Depot 1
+STR_DEPT_1_NAME			:Bus Depot 2
+STR_DEPT_2_NAME			:Bus Depot 3
+STR_DEPT_3_NAME			:Bus Depot 4
+STR_DEPT_4_NAME			:Bus Depot 5
+STR_DEPT_5_NAME			:Bus Depot 6
+
 
 # Other
 STR_NAME_TEST			:Lost child. Report to Erato when found.
