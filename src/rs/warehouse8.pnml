@@ -372,7 +372,7 @@ item (FEAT_ROADSTOPS, WARE_8, ITEM_WARE_8)  {
 		class: "WARE";
 		classname: string(STR_CAT_WARE);
 		availability_type: RST_AVAILABILITY_TYPE_ALL;
-		general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
 		name: string(STR_WARE_8_NAME);
 	}
 	graphics {//If you always want pavement, use switch_ware_8_roadstop_city_view instead
@@ -385,7 +385,7 @@ item (FEAT_ROADSTOPS, WARE_WP_8, ITEM_WARE_WP_8)  {
 		class: "WAYP";
 		classname: string(STR_CAT_WARE);
 		availability_type: RST_AVAILABILITY_TYPE_ALL;
-		general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
 		name: string(STR_WARE_8_NAME);
 	}
 	graphics {//If you always want pavement, use switch_ware_8_roadstop_city_view instead

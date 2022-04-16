@@ -374,7 +374,7 @@ item (FEAT_ROADSTOPS, WARE_0, 0x00) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_0_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_0_roadstop_city_view instead
@@ -386,7 +386,7 @@ item (FEAT_ROADSTOPS, WARE_WP_0, 0x01) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_0_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_0_roadstop_city_view instead
@@ -753,7 +753,7 @@ item (FEAT_ROADSTOPS, WARE_1, 0x02) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_1_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_1_roadstop_city_view instead
@@ -765,7 +765,7 @@ item (FEAT_ROADSTOPS, WARE_WP_1, 0x03) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_1_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_1_roadstop_city_view instead
@@ -1132,7 +1132,7 @@ item (FEAT_ROADSTOPS, WARE_2, 0x04) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_2_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_2_roadstop_city_view instead
@@ -1144,7 +1144,7 @@ item (FEAT_ROADSTOPS, WARE_WP_2, 0x05) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_2_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_2_roadstop_city_view instead
@@ -1511,7 +1511,7 @@ item (FEAT_ROADSTOPS, WARE_3, 0x06) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_3_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_3_roadstop_city_view instead
@@ -1523,7 +1523,7 @@ item (FEAT_ROADSTOPS, WARE_WP_3, 0x07) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_3_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_3_roadstop_city_view instead
@@ -1890,7 +1890,7 @@ item (FEAT_ROADSTOPS, WARE_4, 0x08) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_4_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_4_roadstop_city_view instead
@@ -1902,7 +1902,7 @@ item (FEAT_ROADSTOPS, WARE_WP_4, 0x09) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_4_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_4_roadstop_city_view instead
@@ -2269,7 +2269,7 @@ item (FEAT_ROADSTOPS, WARE_5, 0x0A) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_5_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_5_roadstop_city_view instead
@@ -2281,7 +2281,7 @@ item (FEAT_ROADSTOPS, WARE_WP_5, 0x0B) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_5_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_5_roadstop_city_view instead
@@ -2648,7 +2648,7 @@ item (FEAT_ROADSTOPS, WARE_6, 0x0C) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_6_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_6_roadstop_city_view instead
@@ -2660,7 +2660,7 @@ item (FEAT_ROADSTOPS, WARE_WP_6, 0x0D) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_6_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_6_roadstop_city_view instead
@@ -3027,7 +3027,7 @@ item (FEAT_ROADSTOPS, WARE_7, 0x0E) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_7_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_7_roadstop_city_view instead
@@ -3039,7 +3039,7 @@ item (FEAT_ROADSTOPS, WARE_WP_7, 0x0F) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_7_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_7_roadstop_city_view instead
@@ -3406,7 +3406,7 @@ item (FEAT_ROADSTOPS, WARE_8, 0x10) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_8_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_8_roadstop_city_view instead
@@ -3418,7 +3418,7 @@ item (FEAT_ROADSTOPS, WARE_WP_8, 0x11) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_8_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_8_roadstop_city_view instead
@@ -3785,7 +3785,7 @@ item (FEAT_ROADSTOPS, WARE_9, 0x12) {
   class: "WARE";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_9_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_9_roadstop_city_view instead
@@ -3797,7 +3797,7 @@ item (FEAT_ROADSTOPS, WARE_WP_9, 0x13) {
   class: "WAYP";
   classname: string(STR_CAT_WARE);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_WARE_9_NAME);
  }
  graphics {//If you always want pavement, use switch_ware_9_roadstop_city_view instead
@@ -4164,7 +4164,7 @@ item (FEAT_ROADSTOPS, DEPT_0, 0x14) {
   class: "DEPT";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_0_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_0_roadstop_city_view instead
@@ -4176,7 +4176,7 @@ item (FEAT_ROADSTOPS, DEPT_WP_0, 0x15) {
   class: "WAYP";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_0_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_0_roadstop_city_view instead
@@ -4543,7 +4543,7 @@ item (FEAT_ROADSTOPS, DEPT_1, 0x16) {
   class: "DEPT";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_1_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_1_roadstop_city_view instead
@@ -4555,7 +4555,7 @@ item (FEAT_ROADSTOPS, DEPT_WP_1, 0x17) {
   class: "WAYP";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_1_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_1_roadstop_city_view instead
@@ -4922,7 +4922,7 @@ item (FEAT_ROADSTOPS, DEPT_2, 0x18) {
   class: "DEPT";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_2_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_2_roadstop_city_view instead
@@ -4934,7 +4934,7 @@ item (FEAT_ROADSTOPS, DEPT_WP_2, 0x19) {
   class: "WAYP";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_2_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_2_roadstop_city_view instead
@@ -5301,7 +5301,7 @@ item (FEAT_ROADSTOPS, DEPT_3, 0x1A) {
   class: "DEPT";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_3_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_3_roadstop_city_view instead
@@ -5313,7 +5313,7 @@ item (FEAT_ROADSTOPS, DEPT_WP_3, 0x1B) {
   class: "WAYP";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_3_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_3_roadstop_city_view instead
@@ -5680,7 +5680,7 @@ item (FEAT_ROADSTOPS, DEPT_4, 0x1C) {
   class: "DEPT";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_4_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_4_roadstop_city_view instead
@@ -5692,7 +5692,7 @@ item (FEAT_ROADSTOPS, DEPT_WP_4, 0x1D) {
   class: "WAYP";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_4_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_4_roadstop_city_view instead
@@ -6059,7 +6059,7 @@ item (FEAT_ROADSTOPS, DEPT_5, 0x1E) {
   class: "DEPT";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_5_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_5_roadstop_city_view instead
@@ -6071,7 +6071,7 @@ item (FEAT_ROADSTOPS, DEPT_WP_5, 0x1F) {
   class: "WAYP";
   classname: string(STR_CAT_DEPT);
   availability_type: RST_AVAILABILITY_TYPE_ALL;
-  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+  general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
   name: string(STR_DEPT_5_NAME);
  }
  graphics {//If you always want pavement, use switch_dept_5_roadstop_city_view instead

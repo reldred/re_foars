@@ -372,7 +372,7 @@ item (FEAT_ROADSTOPS, DEPT_2, ITEM_DEPT_2)  {
 		class: "DEPT";
 		classname: string(STR_CAT_DEPT);
 		availability_type: RST_AVAILABILITY_TYPE_ALL;
-		general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
 		name: string(STR_DEPT_2_NAME);
 	}
 	graphics {//If you always want pavement, use switch_dept_2_roadstop_city_view instead
@@ -385,7 +385,7 @@ item (FEAT_ROADSTOPS, DEPT_WP_2, ITEM_DEPT_WP_2)  {
 		class: "WAYP";
 		classname: string(STR_CAT_DEPT);
 		availability_type: RST_AVAILABILITY_TYPE_ALL;
-		general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RSF_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		general_flags: bitmask(RST_GENERAL_FLAG_NO_CATENARY, RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
 		name: string(STR_DEPT_2_NAME);
 	}
 	graphics {//If you always want pavement, use switch_dept_2_roadstop_city_view instead
